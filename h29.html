@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+h1::before {
+  content: url("/home/Sem6B8/arya/html/pics/index.jpeg");
+}
+
+h2::after {
+  content: url("/home/Sem6B8/arya/html/pics/index.jpeg");
+}
+
+p#a::first-letter {
+  color: blue;
+  font-variant: small-caps;
+}
+
+
+p#b::first-line {
+  color: blue;
+  font-variant: small-caps;
+}
+
+::selection{
+color:yellow;
+background:blue;
+}
+</style>
+</head>
+
+<body>
+
+<h1>This is a heading</h1>
+<p id='a'>The ::before pseudo-element inserts content before the content of an element.</p>
+
+<h2>This is a heading</h2>
+<p id='b'><b>Note:</b> IE8 supports the content property only if a <br>!DOCTYPE is specified.</p>
+
+</body>
+</html>
+
